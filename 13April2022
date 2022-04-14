@@ -115,7 +115,91 @@ public class Fiveinput {
 
 	}
 
+}                       
+                                                                            OR
+
+package new_package;
+
+import java.util.Scanner;
+
+public class Arrays {
+	
+	public static void main(String[] args) {
+		int n, max;
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("Enter the limit:");
+
+        n = s.nextInt();
+
+        int a[] = new int[n];
+
+        System.out.println("Enter the numbers:");
+
+        for(int i = 0; i < n; i++)
+
+        {
+
+            a[i] = s.nextInt(); // code to enter the number 
+
+        }
+
+        max = a[0];
+
+        for(int i = 0; i < n; i++)
+
+        {
+
+            if(max < a[i])
+
+            {
+
+                max = a[i];
+
+            }
+
+        }
+
+        System.out.println("Maximum value:"+max); 
+
+
+	}
+	
 }
 
 _____________________________________________________________________________________________________________________________________________________________________
+
+package new_package;
+
+import java.util.Scanner;
+
+public class MemberDetails {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String name[]=new String[5];
+		long number[]=new long[5];
+		int age[]=new int[5];
+		System.out.println("Enter the details");
+		
+		for(int i=0;i<5;i++) {
+			System.out.println("Enter the name");
+			name[i]=sc.next();
+			System.out.println("Enter the number");
+			number[i]=sc.nextLong();
+			System.out.println("Enter the age ");
+			age[i]=sc.nextInt();
+		}
+		System.out.println("Displaying the details");
+		for(int i=0;i<5;i++) {
+			System.out.println("Details of the members are\r ");
+			System.out.println("name = "+name[i]+"number = "+number[i]+"age = "+age[i]);
+			
+		}
+
+
+	}
+
+}
 
