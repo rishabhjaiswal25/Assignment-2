@@ -1,6 +1,6 @@
 package new_pakage;
  import java.util.Scanner;
-public class loops {
+public class greatest_number {
 
 	public static void main(String[] args) {
 	Scanner sys=new Scanner(System.in);
