@@ -1,4 +1,4 @@
-package new_package;
+package new_pakage;
 import java.util.*;
 
 public class students_details {
