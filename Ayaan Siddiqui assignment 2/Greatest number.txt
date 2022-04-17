@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Main 
+{
+    public static void main(String[] args) {
+	Scanner sys=new Scanner(System.in);
+	System.out.println("enter five numbers:");
+	int a=sys.nextInt();
+	int b=sys.nextInt();
+	int c=sys.nextInt();
+	int d=sys.nextInt();
+	int e=sys.nextInt();
+	if(a>b && a>c && a>d && a>e)
+	{
+		System.out.println(a+ " is the greatest number");
+	}
+	else if(b>a && b>c && b>d && b>e)
+	{
+		System.out.println(b+ " is the greatest number");
+	}
+	else if(c>a && c>b && c>d && c>e)
+	{
+		System.out.println(c+ " is the greatest number");
+	}
+	else if(d>a && d>b && d>c && d>e)
+	{
+		System.out.println(d+ " is the greatest number");
+	}
+	else 
+	{
+		System.out.println(e+ " is the greatest number");
+	}
+}
+}
